@@ -1,0 +1,119 @@
+.main-container {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    font-family: 'open sans', Helvetica, sans-serif;
+    align-items: center;
+}
+
+.navigation-bar {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin: 3px;
+}
+
+.navigation-bar-home {
+    background-color: brown;
+    border: solid goldenrod 2px;
+    padding: 5px;
+}
+
+.navigation-bar-right {
+    display: flex;
+    background-color: brown;
+    border: solid goldenrod 2px;
+}
+.navigation-bar-right-add-new {
+    background-color: brown;
+    border-right: solid goldenrod 2px;
+    padding: 5px;
+}
+.navigation-bar-right-map {
+    background-color: brown;
+    border-left: solid goldenrod 2px;
+    padding: 5px;
+}
+a:link {
+    color: white;
+}
+a:visited {
+    color: white;
+}
+a:hover{
+    color: goldenrod;
+}
+a:active{
+    color: white;
+}
+
+.content-container {
+    display: flex;
+    flex-direction: column;
+    color: brown;
+    width: 60%;
+    font-size: 1.5em;
+}
+
+.content-container h1 {
+    text-align: center;
+}
+
+.pictures-container {
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+    /* flex-wrap: wrap; */
+}
+
+.picture-column {
+    display: flex;
+    width: 33%;
+    flex-direction: column;
+    font-size: 1.5em;
+    color: brown;
+    /* flex-wrap: wrap; */
+}
+
+.picture-column img {
+    width: 250px;
+    height: 250px;
+}
+
+.map-page-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    color: brown;
+    padding: 20px 0;
+    align-items: center;
+    font-size: 1.5em;
+}
+
+.map-page-container img {
+    width: 75%;
+    height: auto;
+}
+
+.add-new-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    color: brown;
+    padding: 20px 0;
+    align-items: center;
+    font-size: 1.5em;
+}
+
+.add-new-container button {
+    font-size: 22px;
+}
+
+.added-content-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    color: brown;
+    padding: 20px 0;
+    text-align: center;
+}
